@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: "Poppins", sans-serif;
+
+    background-color: white;
+
+    color: #222;
+
+    min-height: 100vh;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+}
+
+
+.container {
+    width: 100%;
+
+    max-width: 900px;
+
+    padding: 40px 20px;
+
+    text-align: center;
+}
+
+
+.profile img {
+
+    width: 120px;
+
+    height: 120px;
+
+    object-fit: cover;
+
+    border-radius: 50%;
+
+    border: 3px solid black;
+
+}
+
+.identity {
+
+    margin-top: 30px;
+
+}
+
+
+.identity h1 {
+
+    font-size: 20px;
+
+    margin-bottom: 10px;
+
+}
+
+
+.identity p {
+
+    font-size: 15px;
+
+    font-weight: bold;
+
+}
+
+.social-media {
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: flex-start;
+
+    gap: 25px;
+
+    margin-top: 25px;
+
+}
+
+.social-media a {
+
+    text-decoration: none;
+
+    color: black;
+
+}
+
+
+.icon {
+
+    width: 45px;
+
+    height: 45px;
+
+    border: 2px solid black;
+
+    border-radius: 50%;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    font-size: 12px;
+
+    font-weight: bold;
+
+}
+
+
+.social-media span {
+
+    display: block;
+
+    margin-top: 7px;
+
+    font-size: 13px;
+
+}
+
+
+.social-media a:hover {
+
+    transform: translateY(-3px);
+
+}
+
+
+.description {
+
+    width: 500px;
+
+    max-width: 100%;
+
+    margin: 40px auto 0;
+
+    text-align: left;
+
+    font-size: 13px;
+
+    line-height: 1.6;
+
+}
+
+
+.description p {
+
+    margin-bottom: 5px;
+
+}
+
+.date {
+
+    margin-top: 30px;
+
+    font-size: 12px;
+
+    color: #777;
+
+}
